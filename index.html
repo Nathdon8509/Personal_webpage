@@ -54,8 +54,13 @@ margin-bottom: 30px;
 width: 70%
 }
 </style>
+
 <div id="somebadcontent">
-Hello my name is Nathan, this is my personal webpage<br>
+<p id="greeting">.</p><br>
+<script>
+var name = window.prompt("Hello what is your name? ");
+document.getElementById("greeting").innerHTML = "Hi " + name + " my name is Nathan, this is my personal webpage"
+</script>
 <a href="NathanD_CV.pdf">Have a look at my CV here</a><br>
 <br>
 <a href="https://www.linkedin.com/in/nathan-donovan-339947170/"><img src="LinkedIn-Logo.png"></a>
