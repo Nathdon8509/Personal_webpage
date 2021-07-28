@@ -1,11 +1,11 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 <title>Nathan Donovan - personal webpage</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="styles.css">
 <style>
-
 #pageheader {background-color: #39e1d2; overflow:auto; padding: 10px; height: 199px}
 #topbox1 {display: inline-block; float: left; width: 50%}
 #topbox2 {display: inline-block; float: right; width: 50%}
@@ -33,7 +33,7 @@ a {font-size: 18px}
 </div>
 <div id="menu">
 <ul>
-<li><a href="homepage.html">Home</a></li>
+<li><a href="testconcept.html">Home</a></li>
 <li><a href="about.html">About</a></li>
 <li><a href="posts.html">Posts</a></li>
 <li><a href="downloadables.html">Downloadables</a></li>
@@ -55,10 +55,24 @@ margin-bottom: 30px;
 width: 70%
 }
 </style>
-<div id="somebadcontent">
-Hello my name is Nathan, this is my personal webpage<br>
-Things you can download
-</div>
-</body>
 
+<div id="somebadcontent">
+<p id="greeting">.</p><br>
+<script>
+
+document.getElementById("greeting").innerHTML = "Hi " + name + " my name is Nathan, this is my personal webpage"
+</script>
+<a href="NathanD_CV.pdf">Have a look at my CV here</a><br>
+<br>
+<a href="https://www.linkedin.com/in/nathan-donovan-339947170/"><img src="LinkedIn-Logo.png"></a>
+
+</div>
+
+
+</body>
+<footer>
+<div class="footer">
+  <p>Footer</p>
+</div>
+</footer>
 </html>
